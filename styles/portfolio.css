@@ -20,7 +20,7 @@
 section{
     margin-top: 130px;
 }
-/* header and nav styles */
+/* header section styles */
 .header{
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
@@ -81,7 +81,7 @@ main{
     /* margin: 0 auto; */
     margin: 0 220px;
 }
-/* about styles */
+/* about section styles */
 .about{
     background: #FFF8F3;
     border-radius: 10px;
@@ -114,7 +114,7 @@ main{
     font-weight: 700;
     font-size: 20px
 }
-/* what-i-do styles */
+/* what-i-do section styles */
 .what-i-do{
     /* margin-top: 130px; */
 }
@@ -139,7 +139,7 @@ main{
     color: #757575;
     margin-top: 28px;
 }
-/* resume styles */
+/* resume section styles */
 .resume-container{
     display: flex;
     gap: 24px;
@@ -171,17 +171,17 @@ main{
     margin-top: 50px;
     text-align: center;
 }
-/* contact section */
+/* contact section styles */
 .contactt{
     background: #FFF8F3;
     display: flex;
     gap: 100px;
     padding: 130px 200px;
 }
-.contact .section-title{
+.contactt .section-title{
     text-align: left;
 }
-.contact input[type="text"],input[type="email"], textarea{
+.contactt input[type="text"],input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
@@ -190,6 +190,6 @@ main{
 input{
     height: 64px;
 }
-.contact a{
+.contactt a{
     text-decoration: none;
 }
